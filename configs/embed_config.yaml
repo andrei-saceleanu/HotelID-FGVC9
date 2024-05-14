@@ -1,0 +1,12 @@
+db_path: "data"
+
+batch_size: 16
+ensemble:
+  - backbone_name: "efficientnet_b3"
+    checkpoint_path: "/export/home/acs/stud/a/andrei.saceleanu/ssl/trained/ckpt_19_more_data.pth"
+
+  - backbone_name: "eca_nfnet_l2"
+    checkpoint_path: "/export/home/acs/stud/a/andrei.saceleanu/ssl/trained/ckpt_19_eca_nfnet_l2.pth"
+
+  - backbone_name: "vit_small_patch16_384"
+    checkpoint_path: "/export/home/acs/stud/a/andrei.saceleanu/ssl/trained/ckpt_47_vit_small.pth"
